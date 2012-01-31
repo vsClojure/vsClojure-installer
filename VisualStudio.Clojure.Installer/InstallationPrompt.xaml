@@ -1,0 +1,13 @@
+﻿<Window x:Class="vsClojure.VisualStudio_Clojure_Installer.InstallationPrompt"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="vsClojure Update" Height="253" Width="559" ResizeMode="NoResize" ShowActivated="True" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow" ShowInTaskbar="False" SizeToContent="WidthAndHeight">
+	<Grid Height="101" Width="424">
+		<Label Height="77" HorizontalAlignment="Left" Margin="66,12,0,0" Name="label1" VerticalAlignment="Top" Width="349" AllowDrop="False" ForceCursor="True" >
+			<TextBlock Text="The vsClojure project has moved.  You must install the latest version to continue using vsClojure." TextWrapping="Wrap" Width="330" />
+		</Label>
+		<Button Content="Remind Me Later" Height="23" HorizontalAlignment="Right" Margin="0,71,23,0" Name="RemindMeLaterButton" VerticalAlignment="Top" Width="104" />
+		<Button Content="Install Now" Height="23" HorizontalAlignment="Left" Margin="202,71,0,0" Name="InstallNowButton" VerticalAlignment="Top" Width="75" />
+		<Image Height="48" HorizontalAlignment="Left" Margin="12,12,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="48" Source="/VisualStudio.Clojure.Installer;component/Information.ico" />
+	</Grid>
+</Window>

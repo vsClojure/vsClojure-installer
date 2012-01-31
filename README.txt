@@ -1,0 +1,1 @@
+This application is for converting users over to the new vsClojure extension VSIX ID.  It will download and install the latest version of vsClojure from the Visual Studio Gallery.

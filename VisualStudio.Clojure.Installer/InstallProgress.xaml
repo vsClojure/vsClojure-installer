@@ -1,0 +1,11 @@
+﻿<Window x:Class="vsClojure.VisualStudio_Clojure_Installer.InstallProgress"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="vsClojure Installer" Height="380" Width="705" SizeToContent="WidthAndHeight" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" ShowInTaskbar="False">
+    <Grid Height="118" Width="465">
+		<TextBlock Text="Downloading..." Width="100" Height="28" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="12,12,0,0" Name="CurrentStepText"/>
+		<ProgressBar Height="28" HorizontalAlignment="Left" Margin="12,34,0,0" Name="DownloadPercentComplete" VerticalAlignment="Top" Width="441"/>
+		<TextBlock Text="" Width="100" Height="28" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="12,68,0,0" Name="DownloadedAmountText"/>
+		<Button Content="Restart Now" Height="23" HorizontalAlignment="Center" Margin="202,83,188,0" Name="RestartNowButton" VerticalAlignment="Top" Width="75" />
+	</Grid>
+</Window>
