@@ -122,10 +122,6 @@
     <Compile Include="InstallationPrompt.xaml.cs">
       <DependentUpon>InstallationPrompt.xaml</DependentUpon>
     </Compile>
-    <Compile Include="InstallProgress.xaml.cs">
-      <DependentUpon>InstallProgress.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="RepositoryEntry.cs" />
     <Compile Include="Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -172,10 +168,6 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="InstallationPrompt.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="InstallProgress.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
